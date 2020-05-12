@@ -15,6 +15,7 @@ inputs:
       `shell`  will add the values to the file like   `export key=value`
       `yaml`   will add the values to the file like   `key: value`
       `JSON`   will add the values to the file like   `{"key": "value"}`
+      `plain`  will add the values to the file like   `value`
     default: "dotenv"
     required: false
   set-as-env:
